@@ -31,7 +31,7 @@ public class DB {
 		try {
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, username, password);
-			System.out.println("Connection opened");
+			//System.out.println("Connection opened");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
